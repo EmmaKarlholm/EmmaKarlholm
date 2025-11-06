@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: EmmaKarlholm/metrics@master
         with:
-          token: ${{ secret.METRICS }}
+          token: ${{ metrics.METRICS }}
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_habits: yes
