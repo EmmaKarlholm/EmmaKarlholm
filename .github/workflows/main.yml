@@ -17,3 +17,8 @@ jobs:
       - uses: EmmaKarlholm/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_habits: yes
+          plugin_isocalendar: yes
+          plugin_radar: yes
